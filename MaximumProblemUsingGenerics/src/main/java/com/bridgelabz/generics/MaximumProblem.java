@@ -35,16 +35,21 @@ public class MaximumProblem<E extends Comparable <E> > {
         System.out.println("maximum value is = "+max);
     }
     public static <E extends Comparable <E> > E testMaximum(E ... param) {
-        int index=0;
-        E max=param[index];
-        while (index<param.length) {
-            if (param[index].compareTo( max ) > 0) {
-                max = param[index];
-            }
-            index++;
-        }
-        printMax( max,param );
-        return max;
+       E temp;
+       E max=param[0];
+       /*for(int i=0;i<param.length-1;i++)
+       {
+           if(param[i].compareTo( param[i+1] )>0)
+           {
+               temp=param[i];
+               param[i]=param[i+1];
+               param[i+1]=temp;
+           }
+       }*/
+       Arrays.sort( param );
+       printMax( param[param.length-1],param );
+       return param[param.length-1];
+
     }
 
     private static <E extends Comparable <E>> void printMax(E max, E[] param) {
