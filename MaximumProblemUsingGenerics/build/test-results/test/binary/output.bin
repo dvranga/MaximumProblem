@@ -1,0 +1,56 @@
+@firstValue is 122.123 secondValue123.123 thirdValue is 121.121
+maximum value is = 123.123
+@firstValue is 121.123 secondValue122.122 thirdValue is 123.123
+maximum value is = 123.123
+4firstValue is 122 secondValue123 thirdValue is 121
+maximum value is = 123
+123
+maximum value is 123
+4firstValue is 123 secondValue122 thirdValue is 121
+maximum value is = 123
+;firstValue is Apple secondValuePeach thirdValue is Banana
+maximum value is = Peach
+4firstValue is 122 secondValue121 thirdValue is 123
+maximum value is = 123
+	123
+	122
+	maximum value is 123
+
+;firstValue is Apple secondValueBanana thirdValue is Peach
+
+maximum value is = Peach
+Apple
+Peach
+maximum value is Peach
+Apple
+Banana
+Peach
+orange
+maximum value is orange
+@firstValue is 122.123 secondValue123.123 thirdValue is 121.121
+maximum value is = 123.123
+	121.123
+maximum value is 121.123
+	122.123
+	123.123
+	121.121
+0.0
+maximum value is 123.123
+	122.123
+	123.123
+maximum value is 123.123
+122
+123
+121
+100
+maximum value is 123
+;firstValue is Apple secondValuePeach thirdValue is Banana
+maximum value is = Peach
+;firstValue is Apple secondValuePeach thirdValue is Banana
+maximum value is = Peach
+@firstValue is 122.123 secondValue123.123 thirdValue is 121.121
+maximum value is = 123.123
+Apple
+maximum value is Apple
+4firstValue is 123 secondValue122 thirdValue is 121
+maximum value is = 123

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.generics.TestMaximumProblem" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-04-09T05:47:11" hostname="LAPTOP-M8PELJBS" time="0.047">
+  <properties/>
+  <testcase name="givenFloatObject_MaxAtFirstPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.008"/>
+  <testcase name="givenFloatNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
+  <testcase name="givenIntegerNumbers_MaxAtSecondPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
+  <testcase name="givenIntegerNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue3" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
+  <testcase name="givenIntegerNumbers_MaxAtFirstPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
+  <testcase name="givenStringValue_MaxAtSecondPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.002"/>
+  <testcase name="givenIntegerNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
+  <testcase name="givenIntegerNumbers_MaxAtFirstPlace_ShouldReturnMaximumValue1" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
+  <testcase name="givenStringValue_MaxAThirdPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.003"/>
+  <testcase name="givenStringValue_MaxAtFirstPlace_ShouldReturnMaximumValue2" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.006"/>
+  <testcase name="givenStringValue_MaxAThirdPlace_ShouldReturnMaximumValue3" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
+  <testcase name="givenFloatNumbers_MaxAtSecondPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
+  <testcase name="givenFloatNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue3" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
+  <testcase name="givenFloatNumbers_MaxAtSecondPlace_ShouldReturnMaximumValue2" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
+  <testcase name="givenFloatNumbers_MaxAtFirstPlace_ShouldReturnMaximumValue1" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
+  <testcase name="givenIntegerNumbers_MaxAtSecondPlace_ShouldReturnMaximumValue2" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.003"/>
+  <testcase name="givenStringValue_MaxAtFirstPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
+  <testcase name="givenStringObject_MaxAtSecondPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
+  <testcase name="givenFloatNumbers_MaxAtFirstPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
+  <testcase name="givenStringValue_MaxAtSecondPlace_ShouldReturnMaximumValue1" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
+  <testcase name="givenIntegerObject_MaxAtFirstPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
+  <system-out><![CDATA[firstValue is 122.123 secondValue123.123 thirdValue is 121.121
+maximum value is = 123.123
+firstValue is 121.123 secondValue122.122 thirdValue is 123.123
+maximum value is = 123.123
+firstValue is 122 secondValue123 thirdValue is 121
+maximum value is = 123
+123
+maximum value is 123
+firstValue is 123 secondValue122 thirdValue is 121
+maximum value is = 123
+firstValue is Apple secondValuePeach thirdValue is Banana
+maximum value is = Peach
+firstValue is 122 secondValue121 thirdValue is 123
+maximum value is = 123
+123
+122
+maximum value is 123
+firstValue is Apple secondValueBanana thirdValue is Peach
+maximum value is = Peach
+Apple
+Peach
+maximum value is Peach
+Apple
+Banana
+Peach
+orange
+maximum value is orange
+firstValue is 122.123 secondValue123.123 thirdValue is 121.121
+maximum value is = 123.123
+121.123
+maximum value is 121.123
+122.123
+123.123
+121.121
+0.0
+maximum value is 123.123
+122.123
+123.123
+maximum value is 123.123
+122
+123
+121
+100
+maximum value is 123
+firstValue is Apple secondValuePeach thirdValue is Banana
+maximum value is = Peach
+firstValue is Apple secondValuePeach thirdValue is Banana
+maximum value is = Peach
+firstValue is 122.123 secondValue123.123 thirdValue is 121.121
+maximum value is = 123.123
+Apple
+maximum value is Apple
+firstValue is 123 secondValue122 thirdValue is 121
+maximum value is = 123
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
