@@ -12,7 +12,7 @@ public class MaximumProblem<E extends Comparable <E> > {
         this.firstValue = firstValue;
         this.secondValue = secondValue;
         this.thirdValue = thirdValue;
-    }
+    } 
 
     public  E testMaximum(){
         return  testMaximum( firstValue,secondValue,thirdValue );
