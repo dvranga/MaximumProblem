@@ -64,32 +64,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestMaximumProblem.givenFloatNumbers_MaxAtFirstPlace_ShouldReturnMaximumValue1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestMaximumProblem.givenFloatNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.generics.TestMaximumProblem.givenFloatNumbers_MaxAtFirstPlace_ShouldReturnMaximumValue1&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestMaximumProblem.givenFloatNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.generics.TestMaximumProblem.givenFloatNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue3&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.generics.TestMaximumProblem.givenFloatNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -124,12 +104,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestMaximumProblem.givenStringValue_MaxAThirdPlace_ShouldReturnMaximumValue3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestMaximumProblem.givenIntegerNumbers_MaxAtSecondPlace_ShouldReturnMaximumValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.generics.TestMaximumProblem.givenStringValue_MaxAThirdPlace_ShouldReturnMaximumValue3&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.generics.TestMaximumProblem.givenIntegerNumbers_MaxAtSecondPlace_ShouldReturnMaximumValue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMaximumProblem.givenIntegerNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.generics.TestMaximumProblem.givenIntegerNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -147,10 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.TestMaximumProblem" />
+        <item itemvalue="Gradle.TestMaximumProblem.givenFloatNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue" />
+        <item itemvalue="Gradle.TestMaximumProblem.givenIntegerNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue" />
+        <item itemvalue="Gradle.TestMaximumProblem.givenIntegerNumbers_MaxAtSecondPlace_ShouldReturnMaximumValue" />
         <item itemvalue="Gradle.TestMaximumProblem.givenIntegerNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue" />
-        <item itemvalue="Gradle.TestMaximumProblem.givenStringValue_MaxAThirdPlace_ShouldReturnMaximumValue3" />
-        <item itemvalue="Gradle.TestMaximumProblem.givenFloatNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue3" />
-        <item itemvalue="Gradle.TestMaximumProblem.givenFloatNumbers_MaxAtFirstPlace_ShouldReturnMaximumValue1" />
       </list>
     </recent_temporary>
   </component>
@@ -176,38 +176,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586369510104" />
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom" timestamp="1586512427809">
+    <state width="1493" height="240" key="GridCell.Tab.0.bottom" timestamp="1586535339601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586512427809" />
-    <state width="1493" height="183" key="GridCell.Tab.0.center" timestamp="1586512427805">
+    <state width="1493" height="240" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586535339601" />
+    <state width="1493" height="240" key="GridCell.Tab.0.center" timestamp="1586535339601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586512427805" />
-    <state width="1493" height="183" key="GridCell.Tab.0.left" timestamp="1586512427805">
+    <state width="1493" height="240" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586535339601" />
+    <state width="1493" height="240" key="GridCell.Tab.0.left" timestamp="1586535339601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586512427805" />
-    <state width="1493" height="183" key="GridCell.Tab.0.right" timestamp="1586512427805">
+    <state width="1493" height="240" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586535339601" />
+    <state width="1493" height="240" key="GridCell.Tab.0.right" timestamp="1586535339601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586512427805" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586416860913">
+    <state width="1493" height="240" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586535339601" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586535326972">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586416860913" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586416860912">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586535326972" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586535326962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586416860912" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586416860912">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586535326962" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586535326962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586416860912" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586416860912">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586535326962" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586535326962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586416860912" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586535326962" />
     <state width="602" height="362" key="javadoc.popup" timestamp="1586365884712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -224,5 +224,36 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="730" y="218" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586370329171" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bridgelabz/generics/TestMaximumProblem.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/generics/MaximumProblem.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/generics/MaximumProblem.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/generics/MaximumProblem.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/generics/MaximumProblem.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

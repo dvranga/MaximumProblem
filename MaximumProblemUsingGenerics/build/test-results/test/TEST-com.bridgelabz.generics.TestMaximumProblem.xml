@@ -1,156 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.generics.TestMaximumProblem" tests="30" skipped="0" failures="0" errors="0" timestamp="2020-04-10T09:53:51" hostname="LAPTOP-M8PELJBS" time="0.062">
+<testsuite name="com.bridgelabz.generics.TestMaximumProblem" tests="25" skipped="0" failures="0" errors="0" timestamp="2020-04-10T16:15:41" hostname="LAPTOP-M8PELJBS" time="0.283">
   <properties/>
-  <testcase name="givenFloatNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.01"/>
-  <testcase name="givenFloatNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue2" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.002"/>
-  <testcase name="givenFloatObject_MaxAtFirstPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
+  <testcase name="givenFloatNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.009"/>
+  <testcase name="givenFloatNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue2" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.005"/>
+  <testcase name="givenFloatObject_MaxAtFirstPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.008"/>
   <testcase name="givenIntegerNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.003"/>
-  <testcase name="givenFloatNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
-  <testcase name="givenIntegerNumbers_MaxAtSecondPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
-  <testcase name="givenStringValue_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue2" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
-  <testcase name="givenIntegerNumbers_MaxAtFirstPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
-  <testcase name="givenStringValue_MaxAtFirstPlaceAsDynamicParameters_ShouldReturnMaximumValue1" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
-  <testcase name="givenStringValue_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
-  <testcase name="givenFloatNumbers_MaxAtFourthPlaceAsDynamicParameters_ShouldReturnMaximumValue3" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.002"/>
-  <testcase name="givenStringValue_MaxAtSecondPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
-  <testcase name="givenIntegerNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
-  <testcase name="givenIntegerNumbers_AsDynamicParameters_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
-  <testcase name="givenStringValue_MaxAtFourthPlaceAsDynamicParameters_ShouldReturnMaximumValue3" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.004"/>
-  <testcase name="givenStringValue_MaxAtFourthPlaceAsDynamicParameters_ShouldReturnMaximumValue4" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
-  <testcase name="givenStringValue_MaxAThirdPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
-  <testcase name="givenIntegerNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue2" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.008"/>
-  <testcase name="givenIntegerNumbers_AsDynamicParameters_ShouldReturnMaximumValue1" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.002"/>
-  <testcase name="givenFloatNumbers_MaxAtSecondPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
-  <testcase name="givenFloatNumbers_MaxAtFirstPlaceAsDynamicParameters_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
-  <testcase name="givenFloatNumbers_MaxAtFourthPlaceAsDynamicParameters_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
-  <testcase name="givenIntegerNumbers_MaxAtThirdPlaceAsDynamicParameters_ShouldReturnMaximumValue3" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
-  <testcase name="givenIntegerNumbers_MaxAtThirdPlaceAsDynamicParameters_ShouldReturnMaximumValue4" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
+  <testcase name="givenFloatNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.003"/>
+  <testcase name="givenIntegerNumbers_MaxAtSecondPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.031"/>
+  <testcase name="givenStringValue_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue2" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.002"/>
+  <testcase name="givenFloatNumbers_MaxAtFourthPlaceAsDynamicParameters_ShouldReturnMaximumValue3" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.003"/>
+  <testcase name="givenStringValue_MaxAtSecondPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
+  <testcase name="givenIntegerNumbers_MaxAtThirdPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
+  <testcase name="givenStringValue_MaxAtFourthPlaceAsDynamicParameters_ShouldReturnMaximumValue3" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.005"/>
+  <testcase name="givenStringValue_MaxAtFourthPlaceAsDynamicParameters_ShouldReturnMaximumValue4" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.005"/>
+  <testcase name="givenStringValue_MaxAThirdPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.002"/>
+  <testcase name="givenIntegerNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue2" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.014"/>
+  <testcase name="givenIntegerNumbers_AsDynamicParameters_ShouldReturnMaximumValue1" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.008"/>
+  <testcase name="givenFloatNumbers_MaxAtSecondPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.002"/>
+  <testcase name="givenFloatNumbers_MaxAtFirstPlaceAsDynamicParameters_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.002"/>
+  <testcase name="givenFloatNumbers_MaxAtFourthPlaceAsDynamicParameters_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.005"/>
+  <testcase name="givenIntegerNumbers_MaxAtThirdPlaceAsDynamicParameters_ShouldReturnMaximumValue3" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.028"/>
+  <testcase name="givenIntegerNumbers_MaxAtThirdPlaceAsDynamicParameters_ShouldReturnMaximumValue4" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.016"/>
   <testcase name="givenStringValue_MaxAtFirstPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
-  <testcase name="givenStringObject_MaxAtSecondPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
-  <testcase name="givenStringValue_MaxAtFirstPlaceAsDynamicParameters_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
-  <testcase name="givenFloatNumbers_MaxAtFirstPlaceAsDynamicParameters_ShouldReturnMaximumValue1" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
-  <testcase name="givenFloatNumbers_MaxAtFirstPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.0"/>
-  <testcase name="givenIntegerObject_MaxAtFirstPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
-  <system-out><![CDATA[0.0
-121.121
-122.123
-123.123
-maximum value is 123.123
-0.0
+  <testcase name="givenStringObject_MaxAtSecondPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.002"/>
+  <testcase name="givenFloatNumbers_MaxAtFirstPlaceAsDynamicParameters_ShouldReturnMaximumValue1" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.003"/>
+  <testcase name="givenFloatNumbers_MaxAtFirstPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.001"/>
+  <testcase name="givenIntegerObject_MaxAtFirstPlace_ShouldReturnMaximumValue" classname="com.bridgelabz.generics.TestMaximumProblem" time="0.002"/>
+  <system-out><![CDATA[firstValue is 122.123 secondValue123.123 thirdValue is 121.121
 1.1
+
+maximum value is = 123.123
+firstValue is 122.123 secondValue123.123 thirdValue is 121.121
+0.0
+
 12.02
-121.121
-122.123
-123.123
+
+1.1
+
 12345.123
-maximum value is 12345.123
+
+maximum value is = 12345.123
 firstValue is 122.123 secondValue123.123 thirdValue is 121.121
 maximum value is = 123.123
+firstValue is 122 secondValue123 thirdValue is 121
 100
-121
-122
-123
-maximum value is 123
+
+maximum value is = 123
 firstValue is 121.123 secondValue122.122 thirdValue is 123.123
 maximum value is = 123.123
 firstValue is 122 secondValue123 thirdValue is 121
 maximum value is = 123
-A
-Apple
+firstValue is Apple secondValuePeach thirdValue is A
 B
-Peach
-maximum value is Peach
-122
-123
-maximum value is 123
-Apple
-Ranga
-maximum value is Ranga
-Apple
-Peach
-maximum value is Peach
-1.2
-1.22
-2.22
-3.33
+
+maximum value is = Peach
+firstValue is 1.22 secondValue2.22 thirdValue is 3.33
 121.123
-maximum value is 121.123
+
+1.2
+
+maximum value is = 121.123
 firstValue is Apple secondValuePeach thirdValue is Banana
 maximum value is = Peach
 firstValue is 122 secondValue121 thirdValue is 123
 maximum value is = 123
-122
-123
-maximum value is 123
-Apple
-Banana
-Peach
+firstValue is Apple secondValueBanana thirdValue is Peach
 orange
-maximum value is orange
+
+maximum value is = orange
+firstValue is Apple secondValueBanana thirdValue is Peach
+orange
+
 A
-Apple
-Banana
-Peach
-orange
-maximum value is orange
+
+maximum value is = orange
 firstValue is Apple secondValueBanana thirdValue is Peach
 maximum value is = Peach
-41
-58
+firstValue is 122 secondValue123 thirdValue is 121
 100
-121
-122
-123
-485
+
 500
+
+58
+
+41
+
+485
+
 565
+
 1000
-maximum value is 1000
-1
+
+maximum value is = 1000
+firstValue is 123 secondValue122 thirdValue is 1
 2
+
 3
+
 4
+
 5
+
 6
+
 7
-122
-123
-maximum value is 123
+
+maximum value is = 123
 firstValue is 122.123 secondValue123.123 thirdValue is 121.121
 maximum value is = 123.123
-122.123
-123.123
-maximum value is 123.123
-1.22
-2.22
-3.33
+firstValue is 123.123 secondValue122.123 thirdValue is 1.0
+maximum value is = 123.123
+firstValue is 1.22 secondValue2.22 thirdValue is 3.33
 121.123
-maximum value is 121.123
-1
-2
+
+maximum value is = 121.123
+firstValue is 1 secondValue2 thirdValue is 123
 4
-123
-maximum value is 123
-1
-2
-123
-155
+
+maximum value is = 123
+firstValue is 1 secondValue2 thirdValue is 123
 10000
+
 10055
+
 15155
+
+155
+
 100000
-maximum value is 100000
+
+maximum value is = 100000
 firstValue is Apple secondValuePeach thirdValue is Banana
 maximum value is = Peach
 firstValue is Apple secondValuePeach thirdValue is Banana
 maximum value is = Peach
-Apple
-maximum value is Apple
-12.12
+firstValue is 123.123 secondValue122.123 thirdValue is 12.12
 102.12
-122.123
-123.123
-maximum value is 123.123
+
+maximum value is = 123.123
 firstValue is 122.123 secondValue123.123 thirdValue is 121.121
 maximum value is = 123.123
 firstValue is 123 secondValue122 thirdValue is 121

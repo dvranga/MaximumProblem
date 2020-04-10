@@ -16,7 +16,7 @@ public class MaximumProblem<E extends Comparable <E> > {
         return  testMaximum( firstValue,secondValue,thirdValue );
     }
 
-    public static <E extends Comparable <E> > E testMaximum(E firstValue, E secondValue, E thirdValue) {
+    public static <E extends Comparable <E> > E testMaximum(E firstValue, E secondValue, E thirdValue,E ... parameters) {
         E max=firstValue;
         if(secondValue.compareTo( max )>0 ){
             max=secondValue;
@@ -24,25 +24,31 @@ public class MaximumProblem<E extends Comparable <E> > {
         if (thirdValue.compareTo( max )>0){
             max=thirdValue;
         }
-        printMax(firstValue,secondValue,thirdValue,max);
+        if(parameters.length!=0)
+        {
+            max=checkMaxOfAllValue(max,parameters);
+        }
+        printMax( firstValue,secondValue,thirdValue,max,parameters );
+       return max;
+    }
+
+    private static <E extends Comparable <E>> E checkMaxOfAllValue(E max, E[] parameters) {
+        for (E value : parameters) {
+            if(value.compareTo( max )>0) {
+                max=value;
+            }
+        }
         return max;
     }
 
-    private static <E extends Comparable <E> > void printMax(E firstValue, E secondValue, E thirdValue, E max) {
+    private static <E extends Comparable <E> > void printMax(E firstValue, E secondValue, E thirdValue, E max,E ... parameters) {
         System.out.println("firstValue is "+firstValue+" secondValue"+secondValue+" thirdValue is "+thirdValue);
+        for (E values:parameters) {
+            System.out.println(values);
+            System.out.println();
+        }
         System.out.println("maximum value is = "+max);
     }
-    public static <E extends Comparable <E> > E testMaximum(E ... parameters) {
-       Arrays.sort( parameters );
-       printMax( parameters[parameters.length-1],parameters );
-       return parameters[parameters.length-1];
-    }
 
-    private static <E extends Comparable <E>> void printMax(E max, E[] parameters) {
-        for (E elements: parameters) {
-            System.out.println(elements);
-        }
-        System.out.println("maximum value is "+max);
 
-    }
 }

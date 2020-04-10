@@ -6,10 +6,7 @@ import org.junit.Test;
 import java.applet.Applet;
 
 public class TestMaximumProblem {
-    @Test
-    public void givenIntegerNumbers_MaxAtFirstPlace_ShouldReturnMaximumValue() {
-        Assert.assertSame(123,MaximumProblem.testMaximum(123,122));
-    }
+
     @Test
     public void givenIntegerNumbers_MaxAtSecondPlace_ShouldReturnMaximumValue() {
         Assert.assertSame(123,MaximumProblem.testMaximum(122,123,121));
@@ -55,10 +52,6 @@ public class TestMaximumProblem {
         Assert.assertEquals("Peach",new MaximumProblem<String>( "Apple","Peach","Banana").testMaximum());
     }
     @Test
-    public void givenIntegerNumbers_AsDynamicParameters_ShouldReturnMaximumValue() {
-        Assert.assertSame(123,MaximumProblem.testMaximum(123,122));
-    }
-    @Test
     public void givenIntegerNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue() {
         Assert.assertSame(123,MaximumProblem.testMaximum(122,123,121,100));
     }
@@ -68,24 +61,17 @@ public class TestMaximumProblem {
     }
     @Test
     public void givenFloatNumbers_MaxAtFirstPlaceAsDynamicParameters_ShouldReturnMaximumValue() {
-        Assert.assertEquals(123.123f,MaximumProblem.testMaximum(123.123f,122.123f),0.0);
+        Assert.assertEquals(123.123f,MaximumProblem.testMaximum(123.123f,122.123f,1.0f),0.0);
     }
     @Test
     public void givenFloatNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue() {
-        Assert.assertEquals(123.123f,MaximumProblem.testMaximum(122.123f,123.123f,121.121f,0.0f),0.0);
+        Assert.assertEquals(123.123f,MaximumProblem.testMaximum(122.123f,123.123f,121.121f,1.1f),0.0);
     }
     @Test
     public void givenFloatNumbers_MaxAtFourthPlaceAsDynamicParameters_ShouldReturnMaximumValue() {
         Assert.assertEquals(121.123f,MaximumProblem.testMaximum(1.22f,2.22f,3.33f,121.123f),0.0);
     }
-    @Test
-    public void givenStringValue_MaxAtFirstPlaceAsDynamicParameters_ShouldReturnMaximumValue() {
-        Assert.assertEquals("Apple",MaximumProblem.testMaximum( "Apple"));
-    }
-    @Test
-    public void givenStringValue_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue() {
-        Assert.assertEquals("Peach",MaximumProblem.testMaximum( "Apple","Peach"));
-    }
+
     @Test
     public void givenStringValue_MaxAtFourthPlaceAsDynamicParameters_ShouldReturnMaximumValue3() {
         Assert.assertEquals("orange",MaximumProblem.testMaximum( "Apple","Banana","Peach","orange"));
@@ -114,10 +100,7 @@ public class TestMaximumProblem {
     public void givenFloatNumbers_MaxAtFourthPlaceAsDynamicParameters_ShouldReturnMaximumValue3() {
         Assert.assertEquals(121.123f,MaximumProblem.testMaximum(1.22f,2.22f,3.33f,121.123f,1.2f),0.0);
     }
-    @Test
-    public void givenStringValue_MaxAtFirstPlaceAsDynamicParameters_ShouldReturnMaximumValue1() {
-        Assert.assertEquals("Ranga",MaximumProblem.testMaximum( "Apple","Ranga"));
-    }
+
     @Test
     public void givenStringValue_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue2() {
         Assert.assertEquals("Peach",MaximumProblem.testMaximum( "Apple","Peach","A","B"));

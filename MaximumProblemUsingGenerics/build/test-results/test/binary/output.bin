@@ -1,127 +1,118 @@
-0.0
-	121.121
-	122.123
-	123.123
-maximum value is 123.123
+@firstValue is 122.123 secondValue123.123 thirdValue is 121.121
+1.1
+
+maximum value is = 123.123
+@firstValue is 122.123 secondValue123.123 thirdValue is 121.121
 0.0
-1.1
+
 12.02
-	121.121
-	122.123
-	123.123
+
+1.1
+
 12345.123
-maximum value is 12345.123
+
+maximum value is = 12345.123
 @firstValue is 122.123 secondValue123.123 thirdValue is 121.121
 maximum value is = 123.123
+4firstValue is 122 secondValue123 thirdValue is 121
 100
-121
-122
-123
-maximum value is 123
+
+maximum value is = 123
 @firstValue is 121.123 secondValue122.122 thirdValue is 123.123
 maximum value is = 123.123
 4firstValue is 122 secondValue123 thirdValue is 121
 maximum value is = 123
-A
-Apple
+6firstValue is Apple secondValuePeach thirdValue is A
 B
-Peach
-maximum value is Peach
-	122
-	123
-	maximum value is 123
+
+maximum value is = Peach
+	7firstValue is 1.22 secondValue2.22 thirdValue is 3.33
+		121.123
+	
+	1.2
+	
+	maximum value is = 121.123
 
-Apple
+;firstValue is Apple secondValuePeach thirdValue is Banana
 
-Ranga
-
-maximum value is Ranga
-Apple
-Peach
-maximum value is Peach
-1.2
-1.22
-2.22
-3.33
-	121.123
-maximum value is 121.123
-;firstValue is Apple secondValuePeach thirdValue is Banana
-maximum value is = Peach
-4firstValue is 122 secondValue121 thirdValue is 123
-maximum value is = 123
-122
-123
-maximum value is 123
-Apple
-Banana
-Peach
-orange
-maximum value is orange
-A
-Apple
-Banana
-Peach
-orange
-maximum value is orange
-;firstValue is Apple secondValueBanana thirdValue is Peach
-maximum value is = Peach
-41
-58
-100
-121
-122
-123
-485
-500
-565
-1000
-maximum value is 1000
-1
-2
-3
+maximum value is = Peach
+4firstValue is 122 secondValue121 thirdValue is 123
+maximum value is = 123
+;firstValue is Apple secondValueBanana thirdValue is Peach
+orange
+
+maximum value is = orange
+;firstValue is Apple secondValueBanana thirdValue is Peach
+orange
+
+A
+
+maximum value is = orange
+;firstValue is Apple secondValueBanana thirdValue is Peach
+maximum value is = Peach
+4firstValue is 122 secondValue123 thirdValue is 121
+100
+
+500
+
+58
+
+41
+
+485
+
+565
+
+1000
+
+maximum value is = 1000
+2firstValue is 123 secondValue122 thirdValue is 1
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+maximum value is = 123
+@firstValue is 122.123 secondValue123.123 thirdValue is 121.121
+maximum value is = 123.123
+<firstValue is 123.123 secondValue122.123 thirdValue is 1.0
+maximum value is = 123.123
+7firstValue is 1.22 secondValue2.22 thirdValue is 3.33
+	121.123
+
+maximum value is = 121.123
+0firstValue is 1 secondValue2 thirdValue is 123
 4
-5
-6
-7
-122
-123
-maximum value is 123
-@firstValue is 122.123 secondValue123.123 thirdValue is 121.121
-maximum value is = 123.123
-	122.123
-	123.123
-maximum value is 123.123
-1.22
-2.22
-3.33
-	121.123
-maximum value is 121.123
-1
-2
-4
-123
-maximum value is 123
-1
-2
-123
-155
-10000
-10055
-15155
-100000
-maximum value is 100000
-;firstValue is Apple secondValuePeach thirdValue is Banana
-maximum value is = Peach
-;firstValue is Apple secondValuePeach thirdValue is Banana
-maximum value is = Peach
-Apple
-maximum value is Apple
-12.12
-102.12
-	122.123
-	123.123
-maximum value is 123.123
-@firstValue is 122.123 secondValue123.123 thirdValue is 121.121
-maximum value is = 123.123
-4firstValue is 123 secondValue122 thirdValue is 121
-maximum value is = 123
+
+maximum value is = 123
+0firstValue is 1 secondValue2 thirdValue is 123
+10000
+
+10055
+
+15155
+
+155
+
+100000
+
+maximum value is = 100000
+;firstValue is Apple secondValuePeach thirdValue is Banana
+maximum value is = Peach
+;firstValue is Apple secondValuePeach thirdValue is Banana
+maximum value is = Peach
+>firstValue is 123.123 secondValue122.123 thirdValue is 12.12
+102.12
+
+maximum value is = 123.123
+@firstValue is 122.123 secondValue123.123 thirdValue is 121.121
+maximum value is = 123.123
+4firstValue is 123 secondValue122 thirdValue is 121
+maximum value is = 123
