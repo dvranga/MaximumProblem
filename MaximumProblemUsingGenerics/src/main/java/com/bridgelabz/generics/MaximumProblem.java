@@ -3,11 +3,9 @@ package com.bridgelabz.generics;
 import java.util.Arrays;
 
 public class MaximumProblem<E extends Comparable <E> > {
-
    E firstValue;
    E secondValue;
    E thirdValue;
-
     public MaximumProblem(E firstValue, E secondValue, E thirdValue) {
         this.firstValue = firstValue;
         this.secondValue = secondValue;
@@ -35,31 +33,16 @@ public class MaximumProblem<E extends Comparable <E> > {
         System.out.println("maximum value is = "+max);
     }
     public static <E extends Comparable <E> > E testMaximum(E ... param) {
-       E temp;
-       E max=param[0];
-       /*for(int i=0;i<param.length-1;i++)
-       {
-           if(param[i].compareTo( param[i+1] )>0)
-           {
-               temp=param[i];
-               param[i]=param[i+1];
-               param[i+1]=temp;
-           }
-       }*/
        Arrays.sort( param );
        printMax( param[param.length-1],param );
        return param[param.length-1];
-
     }
 
     private static <E extends Comparable <E>> void printMax(E max, E[] param) {
-
         for (E elements: param) {
             System.out.println(elements);
         }
         System.out.println("maximum value is "+max);
 
     }
-
-
 }
