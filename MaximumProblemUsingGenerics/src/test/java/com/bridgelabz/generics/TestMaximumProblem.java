@@ -8,7 +8,7 @@ import java.applet.Applet;
 public class TestMaximumProblem {
     @Test
     public void givenIntegerNumbers_MaxAtFirstPlace_ShouldReturnMaximumValue() {
-        Assert.assertSame(123,MaximumProblem.testMaximum(123,122,121));
+        Assert.assertSame(123,MaximumProblem.testMaximum(123,122));
     }
     @Test
     public void givenIntegerNumbers_MaxAtSecondPlace_ShouldReturnMaximumValue() {
@@ -96,11 +96,11 @@ public class TestMaximumProblem {
     }
     @Test
     public void givenIntegerNumbers_MaxAtSecondPlaceAsDynamicParameters_ShouldReturnMaximumValue2() {
-        Assert.assertSame(1000,MaximumProblem.testMaximum(122,123,121,100,500,58,41,485,565,1000));
+        Assert.assertEquals(1000,MaximumProblem.testMaximum(122,123,121,100,500,58,41,485,565,1000),0.0);
     }
     @Test
     public void givenIntegerNumbers_MaxAtThirdPlaceAsDynamicParameters_ShouldReturnMaximumValue4() {
-        Assert.assertSame( 100000, MaximumProblem.testMaximum( 1, 2, 123, 10000, 10055, 15155, 155, 100000 ) );
+        Assert.assertEquals( 100000, MaximumProblem.testMaximum( 1, 2, 123, 10000, 10055, 15155, 155, 100000 ),0.0 );
     }
     @Test
     public void givenFloatNumbers_MaxAtFirstPlaceAsDynamicParameters_ShouldReturnMaximumValue1() {
