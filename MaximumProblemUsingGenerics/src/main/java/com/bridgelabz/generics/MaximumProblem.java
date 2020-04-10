@@ -10,7 +10,7 @@ public class MaximumProblem<E extends Comparable <E> > {
         this.firstValue = firstValue;
         this.secondValue = secondValue;
         this.thirdValue = thirdValue;
-    } 
+    }
 
     public  E testMaximum(){
         return  testMaximum( firstValue,secondValue,thirdValue );
@@ -32,14 +32,14 @@ public class MaximumProblem<E extends Comparable <E> > {
         System.out.println("firstValue is "+firstValue+" secondValue"+secondValue+" thirdValue is "+thirdValue);
         System.out.println("maximum value is = "+max);
     }
-    public static <E extends Comparable <E> > E testMaximum(E ... param) {
-       Arrays.sort( param );
-       printMax( param[param.length-1],param );
-       return param[param.length-1];
+    public static <E extends Comparable <E> > E testMaximum(E ... parameters) {
+       Arrays.sort( parameters );
+       printMax( parameters[parameters.length-1],parameters );
+       return parameters[parameters.length-1];
     }
 
-    private static <E extends Comparable <E>> void printMax(E max, E[] param) {
-        for (E elements: param) {
+    private static <E extends Comparable <E>> void printMax(E max, E[] parameters) {
+        for (E elements: parameters) {
             System.out.println(elements);
         }
         System.out.println("maximum value is "+max);
